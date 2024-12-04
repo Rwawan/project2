@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Task Schedule</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Elite Service</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="tasks.html">Tasks Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="suggestions.html">Suggestions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="update.html">Updates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reports.html">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="bg-light py-5 text-center">
+    <h1>Weekly Task Schedule</h1>
+    <p>Track your daily and weekly tasks efficiently with our interactive table.</p>
+  </div>
+
+  
+  <div class="container my-5">
+    <h2 class="mb-4">Task Schedule</h2>
+    
+    
+    <div class="alert alert-warning d-flex align-items-center" role="alert">
+      <div>
+        <strong>Reminder:</strong> Don't forget to check your upcoming tasks for the week!
+      </div>
+    </div>
+    
+    
+    <table class="table table-bordered text-center">
+      <thead class="table-secondary">
+        <tr>
+          <th>Task</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Complete Reports</td>
+          <td colspan="2" class="table-warning">In Progress</td>
+          <td class="table-danger">Pending</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Team Meeting</td>
+          <td></td>
+          <td colspan="3" class="table-info">Scheduled at 10 AM</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Client Call</td>
+          <td></td>
+          <td></td>
+          <td class="table-success">Scheduled at 2 PM</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Website Update</td>
+          <td class="table-warning">In Progress</td>
+          <td colspan="2" class="table-primary">Work in Progress</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

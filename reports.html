@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Reports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Elite Service</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tasks.html">Tasks Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suggestions.html">Suggestions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="update.html">Updates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="reports.html">Reports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="bg-light py-5 text-center">
+    <h1>Monthly Reports</h1>
+    <p>Review the monthly reports for employees and departments.</p>
+</div>
+<div class="container my-5">
+    <h2 class="mb-4">Monthly Reports</h2>
+    <table class="table table-bordered">
+        <thead class="table-secondary">
+            <tr>
+                <th scope="col">Month</th>
+                <th scope="col">Report</th>
+                <th scope="col">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>General Performance Report</td>
+                <td><button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#reportModal1">View Details</button></td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>Financial Report</td>
+                <td><button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#reportModal2">View Details</button></td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>Sales Report</td>
+                <td><button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#reportModal3">View Details</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="modal fade" id="reportModal1" tabindex="-1" aria-labelledby="reportModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabel1">January Report Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Content of the January report goes here...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="reportModal2" tabindex="-1" aria-labelledby="reportModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabel2">February Report Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Content of the February report goes here...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="reportModal3" tabindex="-1" aria-labelledby="reportModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabel3">March Report Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Content of the March report goes here...</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
